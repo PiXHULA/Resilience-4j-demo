@@ -40,11 +40,14 @@ Check the Prometheus server.
 ### Step 3
 Configure the Grafana.
 - Open http://localhost:3000
+- Login with admin / admin
 - **Configure integration with Prometheus**
-    - Access configuration
+    - Open the menu in Grafana
+    - Access connections
+    - Access data source
     - Add data source
     - Select Prometheus
-    - Use url "http://localhost:9090" and access with value "Browser"
+    - Use url "http://prometheus:9090" and access with value "Browser"
 - **Configure dashboard**
     - Access "home"
     - Import dashboard
